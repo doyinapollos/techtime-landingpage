@@ -1,9 +1,10 @@
+/* eslint-disable linebreak-style */
 const AuthRoutes = {
-    dashboard: "/dashboard",
+  dashboard: '/dashboard',
 };
 
 const NonAuthRoutes = {
-    home: "/",
+  home: '/',
 };
 
 export { AuthRoutes, NonAuthRoutes };
