@@ -45,8 +45,18 @@ import star from '../assets/svgs/star.svg';
 import menuBook from '../assets/svgs/menu-book.svg';
 import scheduleIcon1 from '../assets/svgs/schedule-icon1.svg';
 import courseImage1 from '../assets/svgs/course-image1.svg';
+import courseImage2 from '../assets/svgs/course-image2.svg';
+import courseImage3 from '../assets/svgs/course-image3.svg';
+import courseImage4 from '../assets/svgs/course-image4.svg';
+import courseImage5 from '../assets/svgs/course-image5.svg';
+import courseImage6 from '../assets/svgs/course-image6.svg';
 import dot1 from '../assets/svgs/dot1.svg';
 import dot2 from '../assets/svgs/dot2.svg';
+import facebookLogo from '../assets/svgs/facebook-logo.svg';
+import twitterLogo from '../assets/svgs/twitter-logo.svg';
+import youtubeLogo from '../assets/svgs/youtube-logo.svg';
+import instagramLogo from '../assets/svgs/instagram-logo.svg';
+import eyeglassShape from '../assets/svgs/eye-glass-shape.svg';
 
 function LandingPage() {
   return (
@@ -530,7 +540,7 @@ function LandingPage() {
           </button>
         </div>
       </section>
-      <section className="w-[100%] h-auto bg-red-400 flex flex-col justify-center items-center ">
+      <section className="w-[100%] h-auto flex flex-col justify-center items-center ">
         <div className="w-[90%] h-auto flex justify-center items-center flex-wrap ">
           <div className="w-[360px] h-[430px] p-[5px] rounded-[16px] flex justify-center items-center ">
             <div className="w-[100%] h-[100%] bg-white flex flex-col justify-center items-center ">
@@ -593,14 +603,14 @@ function LandingPage() {
           <div className="w-[360px] h-[430px] p-[5px] rounded-[16px] flex justify-center items-center ">
             <div className="w-[100%] h-[100%] bg-white flex flex-col justify-center items-center ">
               <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] " src={courseImage1} alt="" />
+                <img className="w-[100%] h-[100%] " src={courseImage3} alt="" />
               </div>
               <div className="w-[90%] h-[10%] text-[12px] text-[#A1A1A1] flex justify-between items-center ">
                 <button
                   className="w-[79px] h-[24px] rounded-[16px] bg-[#3FA96A33] text-[#1E5DCE] text-[12px] flex justify-center items-center "
                   type="button"
                 >
-                  Design
+                  Marketing
                 </button>
                 <div className=" flex justify-center items-center ">
                   <p>4.7k</p>
@@ -614,7 +624,7 @@ function LandingPage() {
               </div>
               <div className="w-[90%] h-[15%] text-[20px] font-[700] font-clashDisplay text-[#000F24] ">
                 <p>
-                  Introduction to user research in <br /> ux design
+                  Introduction to new marketing <br /> audience
                 </p>
               </div>
               <div className="w-[90%] h-[10%] flex justify-between items-center ">
@@ -651,7 +661,7 @@ function LandingPage() {
           <div className="w-[360px] h-[430px] p-[5px] rounded-[16px] flex justify-center items-center ">
             <div className="w-[100%] h-[100%] bg-white flex flex-col justify-center items-center ">
               <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] " src={courseImage1} alt="" />
+                <img className="w-[100%] h-[100%] " src={courseImage2} alt="" />
               </div>
               <div className="w-[90%] h-[10%] text-[12px] text-[#A1A1A1] flex justify-between items-center ">
                 <button
@@ -672,7 +682,7 @@ function LandingPage() {
               </div>
               <div className="w-[90%] h-[15%] text-[20px] font-[700] font-clashDisplay text-[#000F24] ">
                 <p>
-                  Introduction to user research in <br /> ux design
+                  Introduction to html, css <br /> & bootstrap
                 </p>
               </div>
               <div className="w-[90%] h-[10%] flex justify-between items-center ">
@@ -709,7 +719,7 @@ function LandingPage() {
           <div className="w-[360px] h-[430px] p-[5px] rounded-[16px] flex justify-center items-center ">
             <div className="w-[100%] h-[100%] bg-white flex flex-col justify-center items-center ">
               <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] " src={courseImage1} alt="" />
+                <img className="w-[100%] h-[100%] " src={courseImage4} alt="" />
               </div>
               <div className="w-[90%] h-[10%] text-[12px] text-[#A1A1A1] flex justify-between items-center ">
                 <button
@@ -730,7 +740,7 @@ function LandingPage() {
               </div>
               <div className="w-[90%] h-[15%] text-[20px] font-[700] font-clashDisplay text-[#000F24] ">
                 <p>
-                  Introduction to user research in <br /> ux design
+                  introduction to javascript, git & <br /> GitHub
                 </p>
               </div>
               <div className="w-[90%] h-[10%] flex justify-between items-center ">
@@ -767,7 +777,7 @@ function LandingPage() {
           <div className="w-[360px] h-[430px] p-[5px] rounded-[16px] flex justify-center items-center ">
             <div className="w-[100%] h-[100%] bg-white flex flex-col justify-center items-center ">
               <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] " src={courseImage1} alt="" />
+                <img className="w-[100%] h-[100%] " src={courseImage5} alt="" />
               </div>
               <div className="w-[90%] h-[10%] text-[12px] text-[#A1A1A1] flex justify-between items-center ">
                 <button
@@ -788,7 +798,7 @@ function LandingPage() {
               </div>
               <div className="w-[90%] h-[15%] text-[20px] font-[700] font-clashDisplay text-[#000F24] ">
                 <p>
-                  Introduction to user research in <br /> ux design
+                  Introduction to outroom <br /> marketing analysis
                 </p>
               </div>
               <div className="w-[90%] h-[10%] flex justify-between items-center ">
@@ -825,7 +835,7 @@ function LandingPage() {
           <div className="w-[360px] h-[430px] p-[5px] rounded-[16px] flex justify-center items-center ">
             <div className="w-[100%] h-[100%] bg-white flex flex-col justify-center items-center ">
               <div className="w-[100%] h-[50%] ">
-                <img className="w-[100%] h-[100%] " src={courseImage1} alt="" />
+                <img className="w-[100%] h-[100%] " src={courseImage6} alt="" />
               </div>
               <div className="w-[90%] h-[10%] text-[12px] text-[#A1A1A1] flex justify-between items-center ">
                 <button
@@ -846,7 +856,7 @@ function LandingPage() {
               </div>
               <div className="w-[90%] h-[15%] text-[20px] font-[700] font-clashDisplay text-[#000F24] ">
                 <p>
-                  Introduction to user research in <br /> ux design
+                  introduction to live marketing <br /> analysis
                 </p>
               </div>
               <div className="w-[90%] h-[10%] flex justify-between items-center ">
@@ -900,8 +910,8 @@ function LandingPage() {
           definition, generally any standard video image
         </p>
       </section>
-      <section className="w-[100%] h-[300px] bg-red-600 flex flex-col overflow-scroll justify-center items-start ">
-        <div className="w-[100%] h-[300px] bg-red-600 flex overflow justify-center items-start ">
+      <section className="w-[100%] h-[300px] flex flex-col justify-center items-start ">
+        <div className="w-[100%] h-[300px] flex overflow justify-center items-start ">
           <div className="w-[500px] h-[230px] px-[20px] m-[12px] rounded-[24px] bg-white flex flex-col justify-center items-start  ">
             <p className="text-[14px] font-[500] text-[#A1A1A1] ">
               High-defination video is video of higher resolution and quality
@@ -994,6 +1004,172 @@ function LandingPage() {
           <img className="w-[10px] h-[10px] m-[2px] " src={dot1} alt="" />
         </div>
       </section>
+      <section className="w-[100%] text-white h-[700px] my-[40px] bg-[#054FB3] flex flex-col justify-start items-center ">
+        <div className="w-[90%] h-[30%] flex flex-col justify-center items-center ">
+          <p className="text-[16px] font-[500] ">Join our community</p>
+
+          <span className="text-[50px] font-[700] font-clashDisplay ">
+            Are you ready to connect with the future{' '}
+          </span>
+          <span className="text-[50px] mt-[-18px] font-[700] font-clashDisplay">
+            {' '}
+            talent of the tech world
+          </span>
+
+          <p className="text-[16px] text-white font-[500] ">
+            Meet up with other techstars and grow together
+          </p>
+        </div>
+        <div className="w-[100%] h-[55%] flex justify-center items-center  ">
+          <img src={roundIcon} alt="" />
+        </div>
+        <div className="w-[90%] h-[15%] flex justify-center items-center ">
+          <button
+            className="w-[220px] h-[54px] rounded-[4px] font-[700] bg-white text-[#004DB3] text-[16px] flex justify-center items-center "
+            type="button"
+          >
+            Join our community
+          </button>
+        </div>
+      </section>
+      <section className="w-[100%] h-[200px] flex flex-col justify-start items-center ">
+        <div className="w-[75%] flex justify-end items-center ">
+          <div className="w-[85%] flex justify-between items-center text-[55px] text-[#000F24] font-[700] font-clashDisplay ">
+            <p className=" ">Frequently asked questions</p>
+            <img className="w-[26px] h-[23px] " src={roundIcon} alt="" />
+          </div>
+        </div>
+        <p className="text-[16px] text-[#A1A1A1] font-[500] ">
+          High-defination video is video of higher resolution and quality than
+          standard definition. while <br /> there’s no standard meaning for high
+          definition, generally any standard video image
+        </p>
+      </section>
+      <section className="w-[100%] h-[50px] flex justify-start items-center ">
+        <div className="w-[75%] flex justify-between items-center text-[24px] text-[#000F24] font-[700] font-clashDisplay ">
+          <img className="w-[75px] h-[18px] " src={zigZagShape} alt="" />
+          <div className="w-[67%] flex justify-between items-center ">
+            <p className="text-[#004DB3] ">Is there a free trial available?</p>
+            <p>-</p>
+          </div>
+        </div>
+      </section>
+      <section className="w-[100%] h-auto mb-[40px] flex flex-col justify-center items-center ">
+        <div className="w-[50%] py-[15px] flex justify-between items-center border-b border-[#EAEAEA] ">
+          <p className=" text-[14px] text-[#A1A1A1] font-[500] ">
+            High-defination video is video of higher resolution and quality than
+            standard definition. while there’s no standard meaning for high
+            definition, generally any standard video image
+          </p>
+        </div>
+        <div className="w-[50%] h-[60px] font-[700] text-[#000F24] text-[24px] border-b border-[#EAEAEA] flex justify-between items-center ">
+          <p>Can i change my plan later?</p>
+          <p>+</p>
+        </div>
+        <div className="w-[50%] h-[60px] font-[700] text-[#000F24] text-[24px] border-b border-[#EAEAEA] flex justify-between items-center ">
+          <p>Are the courses lifetime?</p>
+          <p>+</p>
+        </div>
+        <div className="w-[50%] h-[60px] font-[700] text-[#000F24] text-[24px] border-b border-[#EAEAEA] flex justify-between items-center ">
+          <p>Do i get certified after taking courses?</p>
+          <p>+</p>
+        </div>
+        <div className="w-[50%] h-[60px] font-[700] text-[#000F24] text-[24px] border-b border-[#EAEAEA] flex justify-between items-center ">
+          <p>How do i reach out to mentors?</p>
+          <p>+</p>
+        </div>
+        <div className="w-[50%] h-[60px] font-[700] text-[#000F24] text-[24px] border-b border-[#EAEAEA] flex justify-between items-center ">
+          <p>Do we get job ready after taking courses?</p>
+          <p>+</p>
+        </div>
+      </section>
+      <footer className="w-[100%] h-[500px] text-white bg-[#000F24] flex justify-center items-center ">
+        <div className="w-[85%] h-[60%] flex justify-center items-start ">
+          <ul className="w-[30%] h-[100%] ">
+            <li className="text-[30px] cursor-pointer font-amazingKids font-[400] mb-[20px] ">
+              TimeTime{' '}
+            </li>
+            <li className="text-[14px] font-[400] mb-[10px] ">
+              Reach out to us on any of our social <br /> media networks
+            </li>
+            <ul className="flex justify-start items-center ">
+              <li>
+                <img
+                  className="w-[32px] h-[31px] mr-[7px] cursor-pointer "
+                  src={facebookLogo}
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  className="w-[31px] h-[25px] mr-[7px] cursor-pointer "
+                  src={twitterLogo}
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  className="w-[32px] h-[22px] mr-[7px] cursor-pointer "
+                  src={youtubeLogo}
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  className="w-[32px] h-[32px] mr-[7px] cursor-pointer "
+                  src={instagramLogo}
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  className="w-[32px] h-[24px] cursor-pointer "
+                  src={eyeglassShape}
+                  alt=""
+                />
+              </li>
+            </ul>
+          </ul>
+          <ul className="w-[20%] h-[100%] ">
+            <li className="mb-[20px] text-[28px] font-[600] font-clashDisplay ">
+              Useful links
+            </li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Home</li>
+            <li className="mb-[10px] text-[20px] font-[400] ">About us</li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Our courses</li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Testimonials</li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Our community</li>
+          </ul>
+          <ul className="w-[20%] h-[100%] ">
+            <li className="mb-[20px] text-[28px] font-[600] font-clashDisplay ">
+              Community
+            </li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Help centers</li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Partners</li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Suggestion</li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Blog</li>
+            <li className="mb-[10px] text-[20px] font-[400] ">Newsletter</li>
+          </ul>
+          <ul className="w-[30%] h-[100% ">
+            <li className="mb-[20px] text-[28px] font-[600] font-clashDisplay ">
+              Subscribe us
+            </li>
+            <li className="flex justify-center items-center ">
+              <input
+                type="text"
+                placeholder="doyinapollos@gmail.com"
+                className="w-[220px] h-[46px] text-[13px] border border-[#054FB3] bg-[#000F24] p-[7px] "
+              />
+              <button
+                className="w-[100px] h-[46px] font-[500] bg-[#054FB3] text-white text-[14px] flex justify-center items-center "
+                type="button"
+              >
+                Send message
+              </button>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   );
 }

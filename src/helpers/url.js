@@ -5,6 +5,7 @@ const AuthRoutes = {
 
 const NonAuthRoutes = {
   home: '/',
+  worldMap: '/world-map',
 };
 
 export { AuthRoutes, NonAuthRoutes };
