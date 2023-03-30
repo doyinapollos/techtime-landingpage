@@ -57,6 +57,7 @@ import twitterLogo from '../assets/svgs/twitter-logo.svg';
 import youtubeLogo from '../assets/svgs/youtube-logo.svg';
 import instagramLogo from '../assets/svgs/instagram-logo.svg';
 import eyeglassShape from '../assets/svgs/eye-glass-shape.svg';
+import WorldMap from './WorldMap';
 
 function LandingPage() {
   return (
@@ -1004,11 +1005,13 @@ function LandingPage() {
           <img className="w-[10px] h-[10px] m-[2px] " src={dot1} alt="" />
         </div>
       </section>
-      <section className="w-[100%] text-white h-[700px] my-[40px] bg-[#054FB3] flex flex-col justify-start items-center ">
-        <div className="w-[90%] h-[30%] flex flex-col justify-center items-center ">
-          <p className="text-[16px] font-[500] ">Join our community</p>
+      <section className="w-[100%] text-white h-[750px] my-[40px] bg-[#004DB3] flex flex-col justify-start items-center ">
+        <div className="w-[90%] h-[20%] flex flex-col justify-center items-center ">
+          <p className="text-[16px] font-[500] mt-[30px] ">
+            Join our community
+          </p>
 
-          <span className="text-[50px] font-[700] font-clashDisplay ">
+          <span className="text-[45px] font-[700] font-clashDisplay ">
             Are you ready to connect with the future{' '}
           </span>
           <span className="text-[50px] mt-[-18px] font-[700] font-clashDisplay">
@@ -1020,12 +1023,13 @@ function LandingPage() {
             Meet up with other techstars and grow together
           </p>
         </div>
-        <div className="w-[100%] h-[55%] flex justify-center items-center  ">
-          <img src={roundIcon} alt="" />
+        <div className="w-[700px] h-[500px]  ">
+          <WorldMap />
+          {/* <img src={roundIcon} alt="" /> */}
         </div>
-        <div className="w-[90%] h-[15%] flex justify-center items-center ">
+        <div className="w-[90%] h-[13%] flex justify-center items-center ">
           <button
-            className="w-[220px] h-[54px] rounded-[4px] font-[700] bg-white text-[#004DB3] text-[16px] flex justify-center items-center "
+            className="w-[200px] h-[44px] rounded-[4px] font-[700] bg-white text-[#004DB3] text-[16px] flex justify-center items-center "
             type="button"
           >
             Join our community

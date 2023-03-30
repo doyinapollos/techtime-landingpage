@@ -22,8 +22,8 @@ function WorldMap() {
   }, []);
 
   return (
-    <div className="world-map">
-      <ComposableMap projectionConfig={{ scale: 200 }}>
+    <div className=" relative z-9999">
+      <ComposableMap projectionConfig={{ scale: 170 }}>
         <Geographies geography={world}>
           {({ geographies }) =>
             geographies.map((geo) => {
@@ -32,8 +32,8 @@ function WorldMap() {
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  fill={d ? d.COLOR : '#F5F4F6'}
-                  stroke="#E2E8F0"
+                  fill={d ? d.COLOR : '#004DB3'}
+                  stroke="#054FB3"
                 />
               );
             })

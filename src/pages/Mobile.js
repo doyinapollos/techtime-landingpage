@@ -5,6 +5,7 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable quotes */
 import React from 'react';
+import WorldMap from './WorldMap';
 import hamburgerMenuIcon from '../assets/svgs/hamburger-menu-icon.svg';
 import roundIcon from '../assets/svgs/round-icon.svg';
 import roundIconFill from '../assets/svgs/round-fill-icon.svg';
@@ -914,8 +915,9 @@ function Mobile() {
             Meet up with other techstars and grow together
           </p>
         </div>
-        <div className="w-[100%] h-[55%] flex justify-center items-center  ">
-          <img src={roundIcon} alt="" />
+        <div className="w-[300px] h-[300px]  ">
+          <WorldMap />
+          {/* <img src={roundIcon} alt="" /> */}
         </div>
         <div className="w-[90%] h-[15%] flex justify-center items-center ">
           <button
